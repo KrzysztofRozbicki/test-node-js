@@ -1,0 +1,20 @@
+{
+  "name": "test-node",
+  "version": "1.0.0",
+  "description": "",
+   "homepage": "https://krzysztofrozbicki.github.io/test-node-js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /test-node-js/"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzysztofrozbicki/test-node-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
